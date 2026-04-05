@@ -1,0 +1,58 @@
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #74ebd5, #9face6);
+}
+
+.login-box {
+  width: 280px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 6px;
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 8px;
+  background: green;
+  color: white;
+  border: none;
+}
+
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+}
+
+/* LINKS */
+.signup-link {
+  color: blue;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.admin-link {
+  color: red;
+  cursor: pointer;
+  font-size: 13px;
+}
+body{
+  margin:0;
+  padding:0;
+}
+html, body, #root {
+  width:100%;
+  height:100%;
+  margin:0;
+
+}
